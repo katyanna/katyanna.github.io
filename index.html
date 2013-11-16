@@ -3,13 +3,63 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Katyanna Moura</title>
+
+	<style type="text/css">
+	html {
+		background: #FFFEF3;
+	}
+
+	#main {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	#menu {
+		margin: 0 auto;
+		width: 600px;
+		border-bottom: 2px solid #fd4958;
+		text-align: center;
+	}
+
+	#menu ul {
+		padding: 3px;
+		margin: 3px;
+		background-color:#FFFEF3;
+		list-style:none;
+	}
+	
+	#menu ul li { display: inline; }
+	
+	#menu ul li a {
+		padding: 3px 15px;
+		display: inline-block;
+ 
+		/* visual do link */
+		background-color:#FFFEF3;
+		color: #333;
+		text-decoration: none;
+	}
+
+	#menu ul li a:hover {
+		background-color:#fd4958;
+		color: #ffffff;
+	}
+
+	#center {
+
+		font-family: ubuntu;
+		font-size: 15px; 
+		text-align: center;
+	}
+
+	</style>
 </head>
 
 <body>
-	<div>
+	<div id="main">
 		<section>
 			<header>
-				<nav>
+				<nav id="menu">
 				<ul>
 					<li><a href="/#">Home</a></li>
 					<li><a href="/about.html">About</a></li>
@@ -21,8 +71,9 @@
 		</section>
 
 		<section>
-			<header>
+			<header id="center">
 				<h1>Katyanna Moura</h1>
+				<img src="/assets/images/draw.png" />
 			</header>
 			
 			<article>
