@@ -3,15 +3,31 @@ body {
   font-family: helvetica;
 }
 
+p {
+  line-height: 1.7em;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+
 #main {
   width: 1000px;
   margin: 0 auto;
 }
 
+#main h2 a {
+  color: #f8537f;
+  text-decoration: none;
+}
+
+#main h2 a:hover {
+  color: #333;
+}
+
 #menu {
   margin: 0 auto;
   width: 600px;
-  border-bottom: 2px solid #fd4958;
+  border-bottom: 2px solid #f8537f;
   text-align: center;
 }
 
@@ -33,16 +49,14 @@ body {
 }
 
 #menu ul li a:hover {
-  background-color:#fd4958;
-  color: #ffffff;
+  color: #f8537f;
 }
 
 #center {
-
-  font-family: ubuntu;
   font-size: 15px;
   text-align: center;
 }
+
 #center img {
   margin: 50px;
   width: 170px;
