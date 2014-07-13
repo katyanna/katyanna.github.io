@@ -1,0 +1,50 @@
+body {
+		background: url("/assets/images/background.jpg");
+		font-family: helvetica;
+	}
+
+	#main {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	#menu {
+		margin: 0 auto;
+		width: 600px;
+		border-bottom: 2px solid #fd4958;
+		text-align: center;
+	}
+
+	#menu ul {
+		padding: 3px;
+		margin: 3px;
+		list-style:none;
+	}
+	
+	#menu ul li { display: inline; }
+	
+	#menu ul li a {
+		padding: 3px 15px;
+		display: inline-block;
+ 
+		/* visual do link */
+		color: #333;
+		text-decoration: none;
+	}
+
+	#menu ul li a:hover {
+		background-color:#fd4958;
+		color: #ffffff;
+	}
+
+	#center {
+
+		font-family: ubuntu;
+		font-size: 15px; 
+		text-align: center;
+	}
+#center img {
+margin: 20px;
+width: 170px;
+height: 170px;
+}
