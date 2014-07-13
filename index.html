@@ -1,88 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Katyanna Moura</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>Katyanna Moura</title>
 
-	<style type="text/css">
-	body {
-		background: url("/assets/images/background.jpg");
-		font-family: helvetica;
-	}
+    <link rel="stylesheet" href="assets/stylesheets/screen.css">
+  </head>
 
-	#main {
-		width: 1000px;
-		margin: 0 auto;
-	}
+  <body>
+    <div id="main">
+      <section>
+        <header>
+          <nav id="menu">
+            <ul>
+              <li><a href="/#">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/archive.html">Archive</a></li>
+              <li><a href="#">Feed</a></li>
+            </ul>
+          </nav>
+        </header>
+      </section>
 
-	#menu {
-		margin: 0 auto;
-		width: 600px;
-		border-bottom: 2px solid #fd4958;
-		text-align: center;
-	}
+      <section>
+        <header id="center">
+          <img src="assets/images/draw.png" />
+        </header>
 
-	#menu ul {
-		padding: 3px;
-		margin: 3px;
-		list-style:none;
-	}
-	
-	#menu ul li { display: inline; }
-	
-	#menu ul li a {
-		padding: 3px 15px;
-		display: inline-block;
- 
-		/* visual do link */
-		color: #333;
-		text-decoration: none;
-	}
+        <article>
+          <header>
+            <h2><a href="/post.html">Título do post</a></h2>
+          </header>
+          <p>"Article" is an element, first introduced in HTML5, for the purpose of relieving "div" fatigue and overuse. An article element might represent a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content. When article elements are nested, the inner article should be related to the contents of the outer article.</p>
 
-	#menu ul li a:hover {
-		background-color:#fd4958;
-		color: #ffffff;
-	}
-
-	#center {
-
-		font-family: ubuntu;
-		font-size: 15px; 
-		text-align: center;
-	}
-
-	</style>
-</head>
-
-<body>
-	<div id="main">
-		<section>
-			<header>
-				<nav id="menu">
-				<ul>
-					<li><a href="/#">Home</a></li>
-					<li><a href="/about.html">About</a></li>
-					<li><a href="/archive.html">Archive</a></li>
-					<li><a href="#">Feed</a></li>
-				</ul>
-				</nav>
-			</header>
-		</section>
-
-		<section>
-			<header id="center">
-				<h1>Katyanna Moura</h1>
-				<img src="/assets/images/draw.png" />
-			</header>
-			
-			<article>
-				<header>
-					<h2><a href="/post.html">Título do post</a></h2>
-				</header>
-				<p>"Article" is an element, first introduced in HTML5, for the purpose of relieving "div" fatigue and overuse. An article element might represent a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content. When article elements are nested, the inner article should be related to the contents of the outer article.</p>
-
-			</article>
-		</section>
-	</div>
-</body>
+        </article>
+      </section>
+    </div>
+  </body>
 </html>
