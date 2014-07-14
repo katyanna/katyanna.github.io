@@ -104,3 +104,21 @@ p {
 #post h1 {
   margin: 70px 0px 30px;
 }
+
+
+/* Archive */
+
+#archive ul {
+  padding: 3px;
+  margin: 3px;
+  list-style:none;
+}
+
+#archive ul li a {
+  padding: 3px 15px;
+  display: inline-block;
+
+  /* visual do link */
+  color: #f8537f;
+  text-decoration: none;
+}
