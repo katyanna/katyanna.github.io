@@ -1,14 +1,24 @@
+@font-face {
+  font-family: 'dearJoe';
+  src:url('../fonts/dearJoe.otf'),
+  url('../fonts/dearJoe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: url("/assets/images/background.jpg");
   font-family: helvetica;
+  color: #2a2a2a;
 }
 
 p {
   line-height: 1.7em;
   text-align: justify;
   text-indent: 40px;
-}
+  font-size: 17px;
 
+}
 
 #main {
   width: 1000px;
@@ -27,7 +37,7 @@ p {
 #menu {
   margin: 0 auto;
   width: 600px;
-  border-bottom: 2px solid #f8537f;
+  border-bottom: 2px solid #ff779a;
   text-align: center;
 }
 
@@ -53,12 +63,14 @@ p {
 }
 
 #center {
-  font-size: 15px;
+  font-family: dearJoe;
+  font-size: 25px;
   text-align: center;
+  color: #111;
 }
 
 #center img {
-  margin: 50px;
+  margin: 50px 0px 0px 0px;
   width: 170px;
   height: 170px;
 }
@@ -66,21 +78,22 @@ p {
 
 /* About */
 
-#colleft {
+.colleft {
   float: left;
   width: 450px;
   margin: 30px 0 0 0;
 }
 
-#colright {
+.colright {
   float:right;
   width: 520px;
+  height: 300px;
   margin: 30px 0 0 0;
 }
 
 #findme img {
   float: right;
-  margin: 65px 10px 0px 10px;
+  margin: 18px 10px 0px 10px;
   width: 50px;
   height: 50px;
 } 
