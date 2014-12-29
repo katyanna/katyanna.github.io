@@ -6,119 +6,135 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Light.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
 body {
-  background: url("/assets/images/background.jpg");
-  font-family: helvetica;
-  color: #2a2a2a;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  color: #454545;
 }
 
 p {
   line-height: 1.7em;
-  text-align: justify;
-  text-indent: 40px;
-  font-size: 17px;
-
+  font-size: 24px;
 }
 
-#main {
-  width: 1000px;
+.content-container {
+  width: 1200px;
   margin: 0 auto;
 }
 
-#main h2 a {
+.info-container {
+  margin: 40px 0;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+/* OCEAN COLOR: # */
+
+.site-header {
+  margin: 50px 0;
+}
+
+#site-name {
+  text-align: left;
+  font-family: dearJoe;
+  font-size: 50px;
   color: #f8537f;
+  /* color: #9261A7; */
+  padding-bottom: 10px;
+}
+
+#nav {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+}
+
+#nav a {
+  float: right;
   text-decoration: none;
-}
-
-#main h2 a:hover {
-  color: #333;
-}
-
-#menu {
-  margin: 0 auto;
-  width: 600px;
-  border-bottom: 2px solid #ff779a;
-  text-align: center;
-}
-
-#menu ul {
-  padding: 3px;
-  margin: 3px;
-  list-style:none;
-}
-
-#menu ul li { display: inline; }
-
-#menu ul li a {
   padding: 3px 15px;
   display: inline-block;
 
   /* visual do link */
   color: #333;
-  text-decoration: none;
 }
 
-#menu ul li a:hover {
-  color: #f8537f;
+#nav a:hover {
+  color: #53f8cb;
 }
 
-#center {
-  font-family: dearJoe;
-  font-size: 25px;
+#line {
+  border: 1px dotted #ededed;;
+  border-width: 100%;
+  margin: 40px 0;
+  
+}
+
+.projects-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.projects-list li {
+  font-size: 22px;
+  width: 20%;
+  float: left;
+  padding: 15px;
   text-align: center;
-  color: #111;
+  margin-bottom: 20px;
 }
 
-#center img {
-  margin: 50px 0px 0px 0px;
-  width: 170px;
-  height: 170px;
+.projects-list li a {
+  text-decoration: none;
+  color: #935FA9;
 }
 
+.projects-list li a:hover {
+  color: #333;
+}
+
+span {
+  font-size: 16px;
+  color: #53f8cb;
+}
 
 /* About */
 
 .colleft {
   float: left;
-  width: 450px;
+  width: 350px;
   margin: 30px 0 0 0;
 }
 
 .colright {
   float:right;
-  width: 520px;
+  width: 620px;
   height: 300px;
-  margin: 30px 0 0 0;
+  margin: 30px 0 0;
 }
+
+.about-picture img {
+  width: 200px;
+  margin: 0 80px;
+  text-align: center;
+}
+
 
 #findme img {
   float: right;
   margin: 18px 10px 0px 10px;
-  width: 50px;
-  height: 50px;
-} 
-
-
-/* Post */
-
-#post h1 {
-  margin: 70px 0px 30px;
-}
-
-
-/* Archive */
-
-#archive ul {
-  padding: 3px;
-  margin: 3px;
-  list-style:none;
-}
-
-#archive ul li a {
-  padding: 3px 15px;
-  display: inline-block;
-
-  /* visual do link */
-  color: #f8537f;
-  text-decoration: none;
+  width: 40px;
+  height: 40px;
 }
