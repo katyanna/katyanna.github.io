@@ -27,9 +27,7 @@ body {
 
 p {
   line-height: 1.7em;
-  text-align: justify;
-  text-indent: 40px;
-  font-size: 17px;
+  font-size: 24px;
 }
 
 .content-container {
@@ -43,64 +41,74 @@ p {
   line-height: 35px;
 }
 
-#blue {
-  color: #53f8cb;
-  font-size: 16px;
+/* OCEAN COLOR: # */
+
+.site-header {
+  margin: 50px 0;
 }
 
-#blue a {
-  text-decoration: none;
-  color: #16e0af;
-}
-
-#blue a:hover {
-  color: #f8537f;
-}
-
-#main h2 a {
-  color: #53f879;
-  text-decoration: none;
-}
-
-#main h2 a:hover {
-  color: #333;
-}
-
-#menu {
-  float: right;
-  text-align: right;
-}
-
-#menu ul {
-  padding: 3px;
-  
-  list-style:none;
-}
-
-#menu ul li { display: inline; }
-
-#menu ul li a {
-  padding: 3px 15px;
-  display: inline-block;
-
-  /* visual do link */
-  color: #333;
-  text-decoration: none;
-}
-
-#menu ul li a:hover {
-  color: #53f8cb;
-}
-
-#site-header {
+#site-name {
   text-align: left;
   font-family: dearJoe;
-  font-size: 25px;
+  font-size: 50px;
   color: #f8537f;
   /* color: #9261A7; */
   padding-bottom: 10px;
 }
 
+#nav {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+}
+
+#nav a {
+  float: right;
+  text-decoration: none;
+  padding: 3px 15px;
+  display: inline-block;
+
+  /* visual do link */
+  color: #333;
+}
+
+#nav a:hover {
+  color: #53f8cb;
+}
+
+#line {
+  border: 1px dotted #ededed;;
+  border-width: 100%;
+  margin: 40px 0;
+  
+}
+
+.projects-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.projects-list li {
+  font-size: 22px;
+  width: 20%;
+  float: left;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-list li a {
+  text-decoration: none;
+  color: #935FA9;
+}
+
+.projects-list li a:hover {
+  color: #333;
+}
+
+span {
+  font-size: 16px;
+  color: #53f8cb;
+}
 
 /* About */
 
