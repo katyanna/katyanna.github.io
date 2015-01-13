@@ -17,6 +17,10 @@
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+  clear: both;
+}
+
 body {
   font-family: Lato, sans-serif;
   font-size: 20px;
@@ -44,7 +48,8 @@ p {
 /* OCEAN COLOR: # */
 
 .site-header {
-  margin: 50px 0;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 #site-name {
@@ -56,12 +61,13 @@ p {
   padding-bottom: 10px;
 }
 
-#nav {
+.nav {
+  margin: 30px 0;
   font-family: Lato, sans-serif;
   font-size: 20px;
 }
 
-#nav a {
+.nav a {
   float: right;
   text-decoration: none;
   padding: 3px 15px;
@@ -71,7 +77,7 @@ p {
   color: #333;
 }
 
-#nav a:hover {
+.nav a:hover {
   color: #53f8cb;
 }
 
@@ -112,29 +118,33 @@ span {
 
 /* About */
 
-.colleft {
-  float: left;
-  width: 350px;
-  margin: 30px 0 0 0;
+.about-container {
+  margin: 0 auto;
+  width: 800px;
 }
 
-.colright {
-  float:right;
-  width: 620px;
-  height: 300px;
-  margin: 30px 0 0;
+.about-container h1 {
+  font-size: 30px;
 }
 
+.about-picture {
+  margin: 30px auto;
+  text-align: center;
+}
 .about-picture img {
-  width: 200px;
-  margin: 0 80px;
+  width: 250px;
+}
+
+.about-container p {
+  font-size: 20px;
+}
+
+.findme {
+  margin: 0 auto;
   text-align: center;
 }
 
-
-#findme img {
-  float: right;
-  margin: 18px 10px 0px 10px;
+.findme img {
+  padding: 15px 15px 0;
   width: 40px;
-  height: 40px;
 }
