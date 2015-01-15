@@ -34,8 +34,8 @@ p {
   font-size: 24px;
 }
 
-.content-container {
-  width: 1200px;
+.container {
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -46,11 +46,6 @@ p {
 }
 
 /* OCEAN COLOR: # */
-
-.site-header {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 #site-name {
   text-align: left;
@@ -74,28 +69,28 @@ p {
   display: inline-block;
 
   /* visual do link */
-  color: #333;
+  color: #53f8cb;
 }
 
 .nav a:hover {
-  color: #53f8cb;
+  color: #935FA9;
 }
 
 #line {
   border: 1px dotted #ededed;;
   border-width: 100%;
-  margin: 40px 0;
+  margin: 3% 0;
   
 }
 
 .projects-list {
   list-style: none;
-  margin-left: 0;
 }
 
 .projects-list li {
+  margin: 0 auto;
   font-size: 22px;
-  width: 20%;
+  width: 30%;
   float: left;
   padding: 15px;
   text-align: center;
@@ -120,7 +115,7 @@ span {
 
 .about-container {
   margin: 0 auto;
-  width: 800px;
+  width: 60%;
 }
 
 .about-container h1 {
