@@ -1,0 +1,71 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+  font-family: 'gothambook';
+  src:url('../fonts/gotham-book.ttf'),
+  url('../fonts/gotham-book.eot') format('embedded-opentype'),
+  url('../fonts/gotham-book.woff') format('woff');;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dearJoe';
+  src:url('../fonts/dearJoe.ttf'),
+  url('../fonts/dearJoe.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// Our variables
+$title-font-family: dearJoe, gothambook, Helvetica, sans-serif;
+$base-font-family: gothambook, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #262626;
+$background-color: #fdfdfd;
+
+$brand-color:      #19a6cc;
+$brand-color-light: lighten($brand-color, 30%);
+$brand-color-dark:  darken($brand-color, 10%);
+
+$grey-color:       #797979;
+$grey-color-light: lighten($grey-color, 50%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1100px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
