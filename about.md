@@ -13,7 +13,6 @@ permalink: /about/
     <p>So far, I had some contact with Ruby, Python, C, HTML, CSS and JavaScript, what means that those are probably going to be the main subjects in my <a href="/blog.md">blog</a>, since I'm learning them. Feel free to send me feedback and sugestions. Hope you find something useful to you around there :D</p>
 
   <section class="findme">
-    <p>Want to talk to me?</p>
     <a href="https://www.facebook.com/katyanna.moura">
       <img src="/public/images/facebook.png" alt="Facebook">
     </a>
