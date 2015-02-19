@@ -292,7 +292,7 @@
 .about-container {
   margin: 0 auto;
   h1 { font-size: 25px; }
-  p { font-size: 16px; }
+  p { font-size: 18px; }
 }
 
 .about-picture {
@@ -303,10 +303,10 @@
 
 .findme {
   max-width: 60%;
-  margin: 0 auto;
+  margin: 40px auto 10px;
   text-align: center;
   img {
-    padding: 10px 10px;
+    padding: 5px 10px;
     width: 45px; }
   a { text-decoration: none; }
 }
