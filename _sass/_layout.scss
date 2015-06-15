@@ -55,20 +55,20 @@
     float: left;
 
     &,
-    &:visited { color: $brand-color; }
+    &:visited { color: $brand-color-dark; }
 
     &:hover {
-      text-decoration: none; 
-      color: $brand-color-dark;
+      text-decoration: none;
+      color: $brand-color;
     }
-    
+
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
     margin-top: 10px;
-  
+
     .menu-icon {
         display: none;
     }
@@ -132,11 +132,16 @@
 /**
  * Site footer
  */
+.TESTE {
+  position: relative;
+  height: 100%;
+}
 .site-footer {
     background: $grey-color-light;
     padding: $spacing-unit 0;
     bottom: 0;
     width: 100%;
+    position: absolute;
 }
 
 .footer-heading {
