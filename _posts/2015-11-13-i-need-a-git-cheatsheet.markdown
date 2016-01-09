@@ -6,7 +6,7 @@ categories: git cheatsheet
 ---
 
 ### Undo last commit
-{% highlight bash %}
+{% highlight console %}
 $ git commit -m "Something terribly misguided"
 $ git reset --soft HEAD~
 $ git add .
@@ -18,7 +18,7 @@ $ git commit -c ORIG_HEAD #uses last commit message
 ### Bring branch to master
 
 ####On master
-{% highlight bash %}
+{% highlight console %}
 $ git fetch origin master
 $ git rebase FETCH_HEAD
 $ git checkout branch
