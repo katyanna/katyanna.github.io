@@ -27,17 +27,17 @@ int game(unsigned width, unsigned height){
     usleep(200000);
   }
 }
-{% endhighlight%}
+{% endhighlight %}
 
 What's happening here is: `game` receives `width` and  `height`, which will be the array indices. The array `universe` is my grid, where the interactions will happen.
 
 In this game, I'll need a lot of `for` conditionals, so I created constants to improve the readability of the code.
 
-{% highlight c %}
+{% highlight shell %}
 #define for_column for (int column = 0; column < width; column++)
 #define for_line for (int line = 0; line < height; line++)
 #define for_position for_line for_column
-{% endhighlight%}
+{% endhighlight %}
 
 So in the second line of `game`, I introduce a new function. This function will randomically set a status for the cell in the position `universe[line][column]`. You can see that this fuction asks an argument, `density` is the value responsible for the quantity of living cells at the beggining of the game.
 
