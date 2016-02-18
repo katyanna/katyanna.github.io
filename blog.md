@@ -15,7 +15,7 @@ permalink: /blog/
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p>
-          {{ post.excerpt | truncatewords: 80 }} <span id="read-more"><a href="{{ post.url }}">Read more</a></span>
+          {{ post.excerpt | truncatewords: 53 }} <span id="read-more"><a href="{{ post.url }}">Read more</a></span>
         </p>
       </li>
     {% endfor %}
