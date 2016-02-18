@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coding the Game of Life in C"
+title: "Coding the Game of Life in C - Part 01"
 date: 2015-06-15 19:00:00
 categories: c game college
 ---
