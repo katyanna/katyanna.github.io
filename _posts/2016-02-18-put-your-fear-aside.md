@@ -7,7 +7,7 @@ categories: life learning college math
 
 It's a scary greek symbol when you first see it. It's an adorable helper when you get to know it. Mathematicians do have their way on scarying the newbie souls away. But don't let the fancy talk fool you: Math is not like that. Take a long breathe and look at it from a different point of view. You'll see the beauty disguised as a witch.
 
-I have a bright friend who in high school couldn't work a fraction up, she was afraid of them. So I imagine it doesn't only happen to me. Summation was my first `hide away point` in college. I was decided that I was never going to learn it. Not that I had ever even tried to. I had seen that symbol in movies about genious and in Feynman's books, that was pro stuff in my head. I was blind by prejudice. And, let's be honest, by ego too. I didn't want to feel dumb, so I didn't put myself in a position where I could fail. Yeah, that was the actual dumb behavior, I see that now.
+I have a bright friend who couldn't work with fractions in high school, she was afraid of them. So I imagine it doesn't only happen to me. Summation was my first `hide away point` in college. I was decided that I was never going to learn it. Not that I had ever even tried to. I had seen that symbol in movies about genious and in Feynman's books, that was pro stuff in my head. I was blind by prejudice. And, let's be honest, by ego too. I didn't want to feel dumb, so I didn't put myself in a position where I could fail. Yeah, that was the actual dumb behavior, I see that now.
 
 Turns out, summation is nothing more than a shortcut for the sum of a sequence. If you want to sum up all the numerals from 1 to 735 it gets very long to write, so summation makes it smaller.
 
