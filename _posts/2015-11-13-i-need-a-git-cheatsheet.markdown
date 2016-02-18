@@ -5,6 +5,8 @@ date: 2015-11-15 10:00:00
 categories: git cheatsheet
 ---
 
+Frequently forget how to do certain things on git, so I'm just gonna put them here for later consulting.
+
 ### Undo last commit
 {% highlight shell %}
 $ git commit -m "Something terribly misguided"
@@ -21,8 +23,9 @@ $ git commit -c ORIG_HEAD #uses last commit message
 {% highlight shell %}
 $ git fetch origin master
 $ git rebase FETCH_HEAD
-$ git checkout branch
+$ git checkout cool-feature-branch
 $ git rebase master
+#fix what may have broken
 $ git checkout master
-$ git merge branch
+$ git merge cool-feature-branch
 {% endhighlight %}

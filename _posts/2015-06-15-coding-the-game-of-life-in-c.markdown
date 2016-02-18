@@ -7,10 +7,12 @@ categories: c game college
 
 So, the last test of my Introduction to Programming class in college is to create a program with C using most of the concepts we learned this semester. And I decided to write the Game of Life.
 
-###The Game of Life###
+### The Game of Life
+
 In the 1940s, John von Neumann created, under very complicated rules, a machine that could create copies of itself. Then someday in 1970, a brittish mathematician called Jonh Horton Conway developed the Life, a successful attempt to simplify von Neumann's ideas. Life became very famous and even introduced a new field of mathematical reasearch, the cellular automata. Duo to it's analogies with the behavior of a society of living organisms, it is a "simulation game" - a game that resembles real life processes.
 
-###The Program###
+### The Program
+
 My `main` function calls only one fuction: `game`.
 
 {% highlight c %}
