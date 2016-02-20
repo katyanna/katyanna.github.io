@@ -34,4 +34,4 @@ See? It's just a sum! That's the very basic thing we all learned before we were 
 
 Let's not do this anymore. It's not cool. Let's be free to learn new stuff. Let's be cool.
 
-`hide away point`: The moment when you think you are just not ready for the world and wants to never try going out of your room ever again.
+`hide away point`: The moment when you think you are just not ready for the world and want to never try going out of your room ever again.
