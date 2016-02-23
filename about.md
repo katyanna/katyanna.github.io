@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <div class="about-container">
   <div class="box about-picture">
-    <img src="/public/images/amelie.png" alt="Katyanna Moura" />
+    <img src="/public/images/draw.png" alt="Katyanna Moura" />
   </div>
     <p>After some wander, I finally got in the Information Technology course at the Rio Grande do Norte Federal University (UFRN), where my Computing academic history starts. Even though I've been taking a superficial look at this stuff for some time already, what makes me think I love it.</p>
     <p>I co-founded the <a href="http://brasil.pyladies.com/">PyLadies Brazil</a> and it was one of the best experiences in my life so far. It's amazing to see how many people this community is helping - myself included. I also organized the RuPy Natal conference, when I had the chance to meet a lot of awesome people.</p>
