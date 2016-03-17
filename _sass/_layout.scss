@@ -132,16 +132,11 @@
 /**
  * Site footer
  */
-.TESTE {
-  position: relative;
-  height: 100%;
-}
 .site-footer {
-  background: $grey-color-light;
+  background-image: url(/public/images/bg.png);
   padding: $spacing-unit 0;
   bottom: 0;
   width: 100%;
-  position: absolute;
 }
 
 .footer-heading {
@@ -227,10 +222,11 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
+  > li p {
     margin-bottom: $spacing-unit;
+    border-bottom: 1px dashed grey;
     &:last-child {
-      color: pink;
+      border-bottom: none;
     }
   }
 }
