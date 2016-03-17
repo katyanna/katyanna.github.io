@@ -222,9 +222,8 @@
   margin-left: 0;
   list-style: none;
 
-  > li p {
+  > li {
     margin-bottom: $spacing-unit;
-    border-bottom: 1px dashed grey;
     &:last-child {
       border-bottom: none;
     }
