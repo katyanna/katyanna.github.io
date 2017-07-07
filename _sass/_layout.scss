@@ -160,7 +160,9 @@
     color: $brand-color; }
   }
   @extend %clearfix;
-  h3 { color: $brand-color-dark; }
+  h4 {
+    text-size: 22px;
+    color: $brand-color-dark; }
 }
 
 .footer-col {
@@ -205,6 +207,13 @@
   }
 }
 
+.credits {
+  font-size: 12px;
+  text-align: center;
+  p {
+    margin-bottom: 0;
+  }
+}
 
 
 /**
