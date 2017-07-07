@@ -47,7 +47,7 @@
 
 .site-title {
   font-family: $title-font-family;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 70px;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -55,11 +55,11 @@
   float: left;
 
   &,
-  &:visited { color: $brand-color-dark; }
+  &:visited { color: $brand-color; }
 
   &:hover {
     text-decoration: none;
-    color: $brand-color;
+    color: $brand-color-dark;
   }
 
 }
