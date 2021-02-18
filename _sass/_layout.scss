@@ -1,44 +1,76 @@
+h2 {
+  font-size: 26px;
+  margin-top: $spacing-unit;
+  @include media-query($on-laptop) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  @include media-query($on-laptop) {
+    font-size: 20px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  @include media-query($on-laptop) {
+    font-size: 18px;
+  }
+}
+
+
 /**
  * Homepage
  */
 .homepage {
-  /* background-image: url(/public/images/bg.png); */
   margin: 0 auto;
   text-align: center;
   h1 {
-    font-family: dearJoe;
     font-size: 30px;
-    margin: 20px auto 50px;
+    margin-bottom: 60px;
     text-align: center; }
-  h3 { font-size: 20px; }
   img {
     max-width: 315px;
-    margin: 0 auto 30px; }
+    margin: 0 auto 90px; }
+  ul {
+    list-style: none;
+    text-align: left;
+  }
+  a {
+    text-align: right;
+  }
+
 }
 
 .separator {
-  margin: 20px auto;
+  margin: 60px auto;
   img {
     max-width: 70%;
     margin: 0;
   }
 }
 
+.more {
+  p {
+    margin-top: $spacing-unit;
+    text-align: center;
+  }
+}
 
 /**
  * Site header
  */
 .site-header {
-  background-image: url(/public/images/bg.png);
-  border-bottom: 1px solid $grey-color-light;
-  min-height: 80px;
+  padding: $spacing-unit 0;
+  min-height: 100px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  font-family: $title-font-family;
   font-size: 32px;
   line-height: 70px;
   letter-spacing: -1px;
@@ -125,7 +157,6 @@
  * Site footer
  */
 .site-footer {
-  background-image: url(/public/images/bg.png);
   padding: $spacing-unit 0;
   bottom: 0;
   width: 100%;
@@ -245,7 +276,6 @@
 }
 
 
-
 /**
  * Posts
  */
@@ -254,45 +284,25 @@
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: 32px;
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
-
   h2 {
-    font-size: 32px;
-
-    @include media-query($on-laptop) {
-      font-size: 28px;
-    }
-  }
-
-  h3 {
-    font-size: 26px;
-
-    @include media-query($on-laptop) {
-      font-size: 22px;
-    }
-  }
-
-  h4 {
-    font-size: 20px;
-
-    @include media-query($on-laptop) {
-      font-size: 18px;
-    }
+    margin-top: $spacing-unit;
   }
 }
 
 pre {
-overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 .sharebuttons {
   margin: 0 auto;
@@ -332,19 +342,4 @@ overflow-x: hidden; }
 .image-box {
   margin: 0 auto;
   width: 100%;
-}
-
-/**
- * Portifolio
- */
-.skills li {
-  list-style-type: none;
-}
-
-.skills-names {
-  text-align: right;
-}
-
-.skills-stars {
-  text-align: left;
 }

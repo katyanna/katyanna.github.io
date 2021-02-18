@@ -4,11 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
-<div>
-  <h2>Stuff I write to practice and learn.</h2>
-  <ul class="projects-list">
-    <li>
-      <span class="post-meta">28 Dec 2014</span> <a href="http://katyanna.github.com">My page</a>
-    </li>
-  </ul>
-</div>
+<h2>baby pet projects</h2>
+
+{% for project in site.projects %}
+    {{ project }}
+{% endfor %}

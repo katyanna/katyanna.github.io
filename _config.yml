@@ -2,10 +2,10 @@
 title: Katyanna Moura
 email: amelie.kn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Amelia's personal & technical blog.
+    a place to share my learning path.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://katyanna.github.io" # the base hostname & protocol for your site
-twitter_username: amelie_kn
+twitter_username: ameliemoura_
 github_username:  katyanna
 permalink: /blog/:title
 
