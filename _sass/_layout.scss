@@ -279,6 +279,10 @@ h4 {
 /**
  * Posts
  */
+.center-img {
+  margin: 0 auto;
+  display: block;
+}
 .post-header {
   margin-bottom: $spacing-unit;
 }
