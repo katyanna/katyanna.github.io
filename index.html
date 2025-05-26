@@ -5,6 +5,7 @@ layout: default
     <sectioni class="row" id="about">
     <article class="col-md-12">
         <img src="/public/images/draw.png" />
+        <div class="site-title">{{ site.title }}</div>
         <p>Hi! I'm Katyanna Moura, a Berlin based Software Developer building cool stuff
            with Python/Django at <a href="https://www.thermondo.de/" target="_blank">°Thermondo</a>.</p>
         <p>Find me on <a href="https://github.com/katyanna" target="_blank">github</a>,
@@ -16,22 +17,6 @@ layout: default
   <section class="row">
     <div class="col-md-12 separator">
       <img src="public/images/flourish-line.png">
-    </div>
-  </section>
-
-  <section class="row" id="portifolio">
-    <h1>Posts</h1>
-
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%Y, %b %-d" }}</span>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-    <div class="more">
-        <p><a href="/blog/" target="_blank">see more</a> </p>
     </div>
   </section>
 </div>
