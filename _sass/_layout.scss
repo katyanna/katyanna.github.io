@@ -151,7 +151,11 @@ pre {
 /**
  * Portifolio
  */
+#portifolio {
+  margin-top: $spacing-unit * 2;
+}
+
 .image-box {
-  margin: 0 auto;
+  margin: 0 auto ($spacing-unit / 2);
   width: 100%;
 }

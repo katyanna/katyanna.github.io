@@ -6,5 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://katyanna.github.io" # the base hostname & protocol for your site
 permalink: /blog/:title
 
+collections:
+  projects:
+
 # Build settings
 markdown: kramdown

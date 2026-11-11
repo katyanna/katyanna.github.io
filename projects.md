@@ -8,6 +8,9 @@ permalink: /projects/
 
 <h2>baby pet projects</h2>
 
-{% for project in site.projects %}
-    {{ project }}
+<section class="row" id="portifolio">
+{% assign projects = site.projects | sort: "date" | reverse %}
+{% for project in projects %}
+{{ project.content }}
 {% endfor %}
+</section>
