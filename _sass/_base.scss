@@ -2,7 +2,7 @@
  * Reset some basic elements
  */
 
-html, body { height: 100%; }
+html { height: 100%; }
 
 
 body, h1, h2, h3, h4, h5, h6,
@@ -16,6 +16,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
