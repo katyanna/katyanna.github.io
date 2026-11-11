@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+{% include back.html %}
+
 <div class="home">
 
   <ul class="post-list">

@@ -81,6 +81,21 @@ h4 {
   padding: $spacing-unit 0;
 }
 
+.back-nav {
+  margin-bottom: $spacing-unit;
+  font-size: $small-font-size;
+
+  a,
+  a:visited {
+    color: $grey-color;
+  }
+
+  a:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
