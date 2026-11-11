@@ -6,14 +6,12 @@
 @font-face {
   font-family: 'gothambook';
   src:url('../fonts/gotham-book.ttf'),
-  url('../fonts/gotham-book.eot') format('embedded-opentype'),
-  url('../fonts/gotham-book.woff') format('woff');;
+  url('../fonts/gotham-book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 // Our variables
-$title-font-family: gothambook, Helvetica, sans-serif;
 $base-font-family: gothambook, Arial, sans-serif;
 $base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.875;
@@ -25,12 +23,9 @@ $text-color:       #3f3F3F;
 $background-color: #fdfdfd;
 
 $brand-color:      #BC5E9B;
-$brand-color-light: lighten($brand-color, 10%);
-$brand-color-dark:  darken($brand-color, 10%);
 
 $grey-color:       #797979;
 $grey-color-light: lighten($grey-color, 50%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    900px;

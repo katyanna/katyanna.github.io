@@ -12,11 +12,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-footer {
-    bottom: 0;
-    left: 0;
-}
-
 /**
  * Basic styling
  */
@@ -190,21 +185,3 @@ pre {
     }
 }
 
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}

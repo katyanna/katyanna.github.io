@@ -27,20 +27,9 @@ h4 {
 .homepage {
   margin: 0 auto;
   text-align: center;
-  h1 {
-    font-size: 30px;
-    margin-bottom: 60px;
-    text-align: center; }
   img {
     max-width: 315px;
     margin: 0 auto 90px; }
-  ul {
-    list-style: none;
-    text-align: left;
-  }
-  a {
-    text-align: right;
-  }
 
 }
 
@@ -52,128 +41,12 @@ h4 {
   }
 }
 
-.more {
-  p {
-    margin-top: $spacing-unit;
-    text-align: center;
-  }
-}
-
-/**
- * Site header
- */
-.site-header {
-  padding: $spacing-unit 0;
-  min-height: 100px;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
-}
-
-.site-title {
-  font-size: 32px;
-  line-height: 70px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  margin-top: 5px;
-  float: left;
-
-  &,
-  &:visited { color: $brand-color; }
-
-  &:hover {
-    text-decoration: none;
-    color: $brand-color-dark;
-  }
-
-}
-
-.site-nav {
-  float: right;
-  line-height: 56px;
-  margin-top: 10px;
-
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the first one
-    &:not(:first-child) {
-      margin-left: 20px;
-    }
-  }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: 30px;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        width: 18px;
-        height: 15px;
-
-        path {
-          fill: $grey-color-dark;
-        }
-      }
-    }
-
-    .trigger {
-      clear: both;
-      display: none;
-    }
-
-    &:hover .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-    }
-  }
-}
-
 
 /**
  * Site footer
  */
 .site-footer {
   padding: $spacing-unit 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-  p {
-    font-size: 12px;
-  }
 }
 
 .footer-col-wrapper {
@@ -186,51 +59,6 @@ h4 {
     color: $brand-color; }
   }
   @extend %clearfix;
-  h4 {
-    text-size: 22px;
-    color: $brand-color-dark; }
-}
-
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
-  width:         calc(33% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
-  width:         calc(33% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
-  width:         calc(33% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
-}
-
-@include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
 }
 
 .credits {
@@ -247,10 +75,6 @@ h4 {
  */
 .page-content {
   padding: $spacing-unit 0;
-}
-
-.page-heading {
-  font-size: 20px;
 }
 
 .post-list {
@@ -279,10 +103,6 @@ h4 {
 /**
  * Posts
  */
-.center-img {
-  margin: 0 auto;
-  display: block;
-}
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -308,37 +128,6 @@ pre {
   overflow-x: hidden;
 }
 
-.sharebuttons {
-  margin: 0 auto;
-  text-align: center;
-}
-
-
-/**
- * About
- */
-
-.about-container {
-  margin: 0 auto;
-  h1 { font-size: 25px; }
-  p { font-size: 18px; }
-}
-
-.about-picture {
-  margin: 20px auto;
-  text-align: center;
-  img { width: 250px; }
-}
-
-.findme {
-  max-width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  img {
-    width: 50px;
-    padding: 0 10px; }
-  a { text-decoration: none; }
-}
 
 /**
  * Portifolio
